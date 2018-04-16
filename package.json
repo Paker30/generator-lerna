@@ -1,0 +1,52 @@
+{
+  "name": "generator-lerna",
+  "version": "1.0.0",
+  "description": "Scaffolding to start a monorepo",
+  "main": "generators/app/index.js",
+  "scripts": {
+    "cm": "git cz",
+    "commitmsg": "validate-commit-msg",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'chore: release major version' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'chore: release minor version' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'chore: release patch version' && npm version patch && git push origin && git push origin --tags",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paker30/generator-lerna.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "monorepo"
+  ],
+  "author": "paker <morenocfrancisco86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paker30/generator-lerna/issues"
+  },
+  "homepage": "https://github.com/Paker30/generator-lerna#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "generate-changelog": "^1.7.1",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "jest-cli": "^22.4.3",
+    "validate-commit-msg": "^2.14.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "yeoman-generator": "^2.0.4"
+  }
+}
