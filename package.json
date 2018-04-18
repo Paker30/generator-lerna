@@ -51,5 +51,8 @@
     "shelljs": "^0.8.1",
     "whoami": "0.0.3",
     "yeoman-generator": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }
