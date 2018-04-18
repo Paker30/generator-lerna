@@ -1,5 +1,5 @@
 {
-  "name": "generator-lerna",
+  "name": "generator-paker-lerna",
   "version": "1.0.0",
   "description": "Scaffolding to start a monorepo",
   "main": "generators/app/index.js",
@@ -47,6 +47,9 @@
     "testEnvironment": "node"
   },
   "dependencies": {
+    "lodash": "^4.17.5",
+    "shelljs": "^0.8.1",
+    "whoami": "0.0.3",
     "yeoman-generator": "^2.0.4"
   }
 }
