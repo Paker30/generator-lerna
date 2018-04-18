@@ -9,6 +9,14 @@
   },
   "author": "<%= author %>",
   "license": "<%= license %>",
+  "repository": {
+    "type": "git",
+    "url": "git+<%= repo %>"
+  },
+  "bugs": {
+    "url": "<%= bugs %>/issues"
+  },
+  "homepage": "<%= homepage %>#readme",
   "devDependencies": {
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
