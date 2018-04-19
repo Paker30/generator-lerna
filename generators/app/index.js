@@ -18,9 +18,6 @@ module.exports = class extends Generator {
             author: answers.author,
             name: answers.name,
             license: answers.license,
-            repo: answers.repo,
-            bugs: answers.repo.replace(/.git$/, ''),
-            homepage: answers.repo.replace(/.git$/, ''),
           },
         },
         { origin: 'README.md', destination: 'README.md', variables: { name: answers.name } },
@@ -53,11 +50,6 @@ module.exports = class extends Generator {
       name: 'license',
       message: 'Which license do you want to use?',
       choices: this.Licenses,
-    },
-    {
-      type: 'input',
-      name: 'repo',
-      message: 'Which is the git repo you want to use?',
     },
     ])
       .then((answers) => { this.answers = answers; });
