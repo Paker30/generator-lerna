@@ -1,8 +1,11 @@
 {
   "name": "generator-paker-lerna",
   "version": "1.0.0",
-  "description": "Scaffolding to start a monorepo",
+  "description": "This is my small scaffolding to start a monorepo",
   "main": "generators/app/index.js",
+  "files": [
+    "generators"
+  ],
   "scripts": {
     "cm": "git cz",
     "commitmsg": "validate-commit-msg",
