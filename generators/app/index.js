@@ -16,7 +16,7 @@ module.exports = class extends Generator {
           destination: 'package.json',
           variables: {
             author: answers.author,
-            name: answers.name,
+            name: kebabCase(answers.name),
             license: answers.license,
           },
         },
@@ -37,7 +37,7 @@ module.exports = class extends Generator {
       type: 'input',
       name: 'name',
       message: 'The name of your new bot',
-      default: kebabCase(this.appname), // Default to current folder name
+      default: this.appname, // Default to current folder name
     },
     {
       type: 'input',
