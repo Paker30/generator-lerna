@@ -1,6 +1,6 @@
 {
   "name": "generator-paker-lerna",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is my small scaffolding to start a monorepo",
   "main": "generators/app/index.js",
   "files": [
