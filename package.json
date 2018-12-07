@@ -29,17 +29,17 @@
   },
   "homepage": "https://github.com/Paker30/generator-lerna#readme",
   "devDependencies": {
-    "commitizen": "^2.9.6",
+    "commitizen": "^2.10.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-import": "^2.14.0",
     "generate-changelog": "^1.7.1",
     "husky": "^0.14.3",
-    "jest": "^22.4.3",
+    "jest": "^22.4.4",
     "jest-cli": "^22.4.3",
     "validate-commit-msg": "^2.14.0",
     "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^1.7.0"
+    "yeoman-test": "^1.9.1"
   },
   "config": {
     "commitizen": {
@@ -50,10 +50,10 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "lodash": "^4.17.5",
-    "shelljs": "^0.8.1",
+    "lodash": "^4.17.10",
+    "shelljs": "^0.8.2",
     "whoami": "0.0.3",
-    "yeoman-generator": "^2.0.4"
+    "yeoman-generator": "^2.0.5"
   },
   "engines": {
     "node": ">=8.0.0"
