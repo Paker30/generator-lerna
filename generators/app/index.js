@@ -36,7 +36,7 @@ module.exports = class extends Generator {
     return this.prompt([{
       type: 'input',
       name: 'name',
-      message: 'The name of your new bot',
+      message: 'The name of your monorepo',
       default: this.appname, // Default to current folder name
     },
     {
