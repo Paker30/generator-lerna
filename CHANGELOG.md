@@ -1,3 +1,22 @@
+### 1.4.0 (2019-07-23)
+
+##### Chores
+
+*  remove package-lock.json ([dd5f9e0c](https://github.com/Paker30/generator-lerna/commit/dd5f9e0cb1031bea7865dade0d5941b2ee3a0b58))
+*  fix property error ([3a146944](https://github.com/Paker30/generator-lerna/commit/3a1469445781680596c45ee4631877f177234671))
+*  add travis file to start passing the only test I have ([f97b02a9](https://github.com/Paker30/generator-lerna/commit/f97b02a959d58849de663e44974086a9fa6d464b))
+*  changelog ([dbb9bb81](https://github.com/Paker30/generator-lerna/commit/dbb9bb813a94818cf8b7ec16f67035c13ed0aaf2))
+*  upgrade module versions ([2b02a921](https://github.com/Paker30/generator-lerna/commit/2b02a921d74654d18b18cef6d9227af3a1e7b365))
+
+##### New Features
+
+* **package.json:**  upgrade devDependencies ([10a74298](https://github.com/Paker30/generator-lerna/commit/10a7429803a8c80b9b0b805c2b469b086b84b71c))
+
+##### Bug Fixes
+
+* **templates:**  .editorconfig was missing ([a16a368f](https://github.com/Paker30/generator-lerna/commit/a16a368f1a0bfe0b45aafa08c400b59e024cf3de))
+* **index.js:**  the main question was not the right one ([1319aec0](https://github.com/Paker30/generator-lerna/commit/1319aec0fd34748bf6c3961a4126d1662b305ad4))
+
 ### 1.3.0 (2018-12-07)
 
 ### 1.1.0 (2018-04-28)
