@@ -66,7 +66,7 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.installDependencies({ npm: true, bower: false, yarn: false })
-      .then(() => shell.exec('npx lerna init'));
+    this.installDependencies({ npm: true, bower: false, yarn: false });
+    shell.exec('npx lerna init');
   }
 };
