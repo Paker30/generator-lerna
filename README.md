@@ -1,4 +1,7 @@
 # generator-paker-lerna
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Paker30/generator-lerna.svg)](https://greenkeeper.io/)
+
 This is my small scaffolding to a start a monorepo in JavaScript with [Lerna](https://lernajs.io/).
 
 The aim of this module is to add more functionality in the future while I learn or need more functionality, I don't entend to solve all cases or have all the tools you need but feel free to upgrade it with any tool or feature you think can be good.
