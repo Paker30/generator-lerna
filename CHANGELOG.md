@@ -1,3 +1,22 @@
+## 2.0.0 (2019-07-31)
+
+##### Chores
+
+* **package:**
+  *  update lockfile package-lock.json ([e6533d04](https://github.com/Paker30/generator-lerna/commit/e6533d042b4fca6561e7bd9923c8cbc9549022f5))
+  *  update dependencies ([ee8fd351](https://github.com/Paker30/generator-lerna/commit/ee8fd351b452a885aaf48fb8333ddc6d69cb74b3))
+  *  update dependencies ([a7f23c5f](https://github.com/Paker30/generator-lerna/commit/a7f23c5f40df759054e5624db72c914a0fca7992))
+*  add Greenkeeper config file ([b52be9e6](https://github.com/Paker30/generator-lerna/commit/b52be9e6cc56a9aa169c01484a1bd4d873d9ed5a))
+* **package-lock.json:**  update ([e45cf67b](https://github.com/Paker30/generator-lerna/commit/e45cf67b05e60bb8eec69238243adc50aeabac6c))
+
+##### Documentation Changes
+
+* **readme:**  add Greenkeeper badge ([73b4c339](https://github.com/Paker30/generator-lerna/commit/73b4c33964ce649734f19e2d529e3185302e8dcd))
+
+##### New Features
+
+* **yeoman:**  update test BREAKING CHANGE yeoman last version change installDependecies ([64044344](https://github.com/Paker30/generator-lerna/commit/640443444ca34c44d48d85b9a91f8d599f9e413e))
+
 ### 1.4.0 (2019-07-23)
 
 ##### Chores
