@@ -13,7 +13,7 @@
   "license": "<%= license %>",
   "devDependencies": {
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
+    "cz-conventional-changelog": "^3.0.3",
     "cz-lerna-changelog": "^2.0.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
