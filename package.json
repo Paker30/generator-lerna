@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Paker30/generator-lerna#readme",
   "devDependencies": {
-    "commitizen": "^4.0.3",
+    "commitizen": "^4.1.0",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.14.0",
