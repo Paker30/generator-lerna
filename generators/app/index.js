@@ -22,10 +22,10 @@ module.exports = class extends Generator {
         },
         { origin: 'README.md', destination: 'README.md', variables: { name: answers.name } },
         { origin: '.gitignore', destination: '.gitignore', variables: {} },
-        { origin: 'lerna.json', destination: 'lerna.json', variables: {} },
+        { origin: 'lerna.json', destination: 'lerna.json', variables: { packages: answers.packages }},
         { origin: '.editorconfig', destination: '.editorconfig', variables: {} },
         { origin: '.eslintrc', destination: '.eslintrc', variables: {} },
-        { origin: '.eslintrc.json', destination: '.eslintrc.json', variables: {} },
+        { origin: 'commitlint.config.js', destination: 'commitlint.config.js', variables: {} },
       ];
 
       return LernaFileTree;
@@ -38,6 +38,12 @@ module.exports = class extends Generator {
       name: 'name',
       message: 'The name of your monorepo',
       default: this.appname, // Default to current folder name
+    },
+    {
+      type: 'input',
+      name: 'packages',
+      message: 'Name of the package folder',
+      default: 'packages',
     },
     {
       type: 'input',
