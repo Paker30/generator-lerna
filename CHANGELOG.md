@@ -1,3 +1,16 @@
+## 3.0.0 (2020-11-22)
+
+##### Chores
+
+* **package:**
+  *  update lockfile package-lock.json ([2285834d](https://github.com/Paker30/generator-lerna/commit/2285834d18ff53b057e7a3780a3e326ff0d58413))
+  *  update eslint-config-airbnb-base to version 14.0.0 ([52de1958](https://github.com/Paker30/generator-lerna/commit/52de19589f2ef1c0e209f437d9a9dbf0a171d2e5))
+  *  update eslint-config-airbnb-base to version 14.0.0 ([526f12f5](https://github.com/Paker30/generator-lerna/commit/526f12f5b2d23d709c13e43c2cedb3ca751ccc1b))
+
+##### New Features
+
+*  upgrade lerna ([6be62f8a](https://github.com/Paker30/generator-lerna/commit/6be62f8a7ef8e1d19344c2855191b4bc8de0e82d))
+
 ## 2.0.0 (2019-07-31)
 
 ##### Chores
