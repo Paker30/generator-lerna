@@ -6,26 +6,32 @@
     "bootstrap": "lerna bootstrap",
     "cm": "git-cz",
     "clean": "lerna clean",
-    "commitmsg": "validate-commit-msg",
-    "publish": "lerna publish --conventional-commits --message 'chore: publish'"
+    "publish": "lerna publish --conventional-commits --message 'chore: bump version'"
   },
   "author": "<%= author %>",
   "license": "<%= license %>",
   "devDependencies": {
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
-    "cz-lerna-changelog": "^2.0.1",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.11.0",
-    "generate-changelog": "^1.7.1",
-    "husky": "^3.0.2",
-    "lerna": "^3.5.1",
-    "validate-commit-msg": "^2.14.0"
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-lerna-changelog": "^2.0.3",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "generate-changelog": "^1.8.0",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }

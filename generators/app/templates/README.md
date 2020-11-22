@@ -1,4 +1,4 @@
 # <%= name %>
-This is the begining of a monorepo
+This is the beginning of a monorepo
 
 ## Scripts
